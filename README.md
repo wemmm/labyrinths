@@ -9,7 +9,7 @@
 
 # What is this?
 
-I've been reading a lot of [Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges) lately and was struck by how interesting it would be to express some of his short stories via code. I'm going to start with [The Library of Babel](https://en.wikipedia.org/wiki/The_Library_of_Babel) for starters, and maybe expand this project outwards into some more of Borges' short stories. 
+I've been reading a lot of [Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges) lately and was struck by how interesting it would be to express some of his short stories via code. I'm going to start with [The Library of Babel](https://en.wikipedia.org/wiki/The_Library_of_Babel) for starters, and maybe expand this project outwards into some more of Borges' work.
 
 # The Library of Babel 
 
@@ -33,12 +33,13 @@ solitude is cheered by that elegant hope."
 ```
 # Approach
 
-According to the text, there are 640 books per hexagon (32 books * 20 shelves) and each book has 410 pages with 3200 characters on each one, separated into 40 lines of 80 letters. I think the best first step is to start with the smallest unit of the program, which in this case would be a randomly generated character (including spaces, commas and full stops), which can then be expanded to a line, a page and then a book. Then the book can be expanded to a shelf, a hexagon and finally a library. 
+According to the text, there are 640 books per hexagon (32 books * 20 shelves) and each book has 410 pages with 3200 characters on each one, separated into 40 lines of 80 letters. I think the best first step is to start with the smallest unit of the program, which in this case would be a randomly generated character (including spaces, commas and full stops), which can then be expanded to a line, a page and then a book. Then the book can be expanded to a shelf, a hexagon and finally a library. The user can then spend infinity trying to find meaning.
 
 There's something quite thematically appropriate about inferring the library via its smallest component. 
 
 # Tech I'm Using:
 
-* Ruby 
-* Sinatra
+* Node.js & Express
+* Javascript
+* Jasmine
 * HTML & CSS
