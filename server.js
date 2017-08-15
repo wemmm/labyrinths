@@ -10,6 +10,10 @@ app.get('/', function (req, res) {
   res.render('index.pug');
 })
 
+app.get('/library', function (req, res) {
+  res.render('library.pug');
+})
+
 const server = app.listen(process.env.PORT || 3000, function() {
   const port = server.address().port;
     console.log("Jenny's lovely server is listening on port " + port);
