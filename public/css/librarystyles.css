@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+}
+
+.page1container {
+  width: 45vw;
+  margin-left: 20px;
+  float: left;
+}
+
+.page2container {
+  width: 45vw;
+  margin-right: 20px;
+  float: right;
+}
