@@ -43,6 +43,8 @@ There's something quite thematically appropriate about inferring the library via
 
 ![early days](https://github.com/wemmm/labyrinths/blob/master/public/images/earlyversion.png)
 
+16/8: Now there's shelves and hexagons! But randomly generating 80 characters 40 times, for 410 pages, in 32 books across 20 shelves is a starting to get predictably hard to load. A hexagon takes roughly a minute to instantiate when I run the code on the console. I've also edited the possible characters so that shorter 'words' are made and now Chrome occasionally tries to tell me that my page appears to be in Polish, which is intriguing.
+
 # Tech I'm Using:
 
 * Node.js & Express
