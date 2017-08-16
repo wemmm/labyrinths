@@ -39,7 +39,9 @@ There's something quite thematically appropriate about inferring the library via
 
 # Current Progress
 
-15/8: Currently able to generate randomised characters and assemble them into lines, pages and books. Backend is done and able to render views- library.pug now displays the first two pages of a book object. It is genuinely fairly maddening trying to glean any meaning from the text.
+15/8: Currently able to generate randomised characters and assemble them into lines, pages and books. Backend is done and able to render views- library.pug now displays the first two pages of a book object. It is genuinely fairly maddening trying to glean any meaning from the text:
+
+![early days](https://github.com/wemmm/labyrinths/blob/master/public/images/earlyversion.png)
 
 # Tech I'm Using:
 
