@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Cabin+Sketch|Fredericka+the+Great|Josefin+Slab|Open+Sans');
+
+html {
+  background: linear-gradient(darkslategray, #1c3438);
+  height: 100vh;
+}
+
 h1 {
   text-align: center;
+  color: floralwhite;
+  font-family: 'Josefin Slab';
 }
 
 p {
   font-size: 12px;
+  color: floralwhite;
+  font-family: 'Open Sans';
 }
 
 .page1container {

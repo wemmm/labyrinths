@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Cabin+Sketch|Fredericka+the+Great|Josefin+Slab');
+
 html {
-  background-color: lightblue;
+  background: linear-gradient(darkslategray, #1c3438);
+  height: 100vh;
+}
+
+form {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Slab';
+  font-weight: normal;
+  font-size: 60px;
+  text-shadow: 2px 2px black;
+}
+
+button {
+  font-family: 'Josefin Slab';
+  background-color: transparent;
+  border-style: double;
+  border-color: floralwhite;
+  border-width: thin;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  color: floralwhite;
+  width: 175px;
 }
