@@ -1,9 +1,10 @@
 $(document).ready(function() {
-  var book = new Book;
+  var shelf = new Shelf;
+})
 
-  $('#booktitle').text(book.bookTitle)
-
-  $('#page1').text(book.pages[0].page)
-
-  $('#page2').text(book.pages[1].page)
+$("#submit").on('click', function() {
+  shelf.getSpecificBook($("#bookinput").val())
+  $('#booktitle').text(shelf.specificBook.bookTitle)
+  $('#page1').text(shelf.specificBook.pages[0].page)
+  $('#page2').text(shelf.specificBook.pages[1].page)
 })
