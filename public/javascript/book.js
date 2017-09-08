@@ -19,3 +19,9 @@ Book.prototype.generateTitle = function () {
   };
     this.bookTitle = this.bookTitle.join("")
 };
+
+// TODO: Finish this function and then hook it up to the interface.
+
+Book.prototype.showSpecificPage = function () {
+
+};
