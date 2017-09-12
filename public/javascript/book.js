@@ -3,6 +3,8 @@ function Book() {
   this.bookTitle = []
   this.generatePages()
   this.generateTitle()
+  this.pageIndex = 0
+  this.currentPage = this.pages[0].page
 }
 
 Book.prototype.generatePages = function () {
@@ -20,8 +22,12 @@ Book.prototype.generateTitle = function () {
     this.bookTitle = this.bookTitle.join("")
 };
 
-// TODO: Finish this function and then hook it up to the interface.
+Book.prototype.nextPage = function () {
+  this.pageIndex = (this.pageIndex += 1);
+  this.currentPage = this.pages[this.pageIndex].page;
+};
 
-Book.prototype.showSpecificPage = function () {
-
+Book.prototype.previousPage = function () {
+  this.pageIndex = (this.pageIndex -= 1);
+  this.currentPage = this.pages[this.pageIndex].page;
 };

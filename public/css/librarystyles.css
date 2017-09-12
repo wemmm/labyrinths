@@ -39,3 +39,7 @@ p {
   margin-right: 20px;
   float: right;
 }
+
+.pagebuttons {
+  display: inline-block;
+}

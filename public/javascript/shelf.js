@@ -19,6 +19,9 @@ Shelf.prototype.getSpecificBook = function (number) {
 
 Shelf.prototype.getSpecificPageOfSpecificBook = function (number) {
   var definitelyNumber = parseInt(number)
-  this.specificPage = (this.specificBook.pages[definitelyNumber-1].page)
+  this.specificPage = (this.specificBook.pages[definitelyNumber-1])
+};
 
+Shelf.prototype.getPreviousPage = function () {
+  this.specificPage
 };
