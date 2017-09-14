@@ -4,17 +4,19 @@ $(document).ready(function() {
   $("#submitbook").on('click', function() {
     shelf.getSpecificBook($("#bookinput").val())
     $('#booktitle').text(shelf.specificBook.bookTitle)
-    $('#page1').text(shelf.specificBook.pages[0].page)
-    $('#page2').text(shelf.specificBook.pages[1].page)
-  })
-
-  $("#back").on('click', function() {
-    $('#page1').text(shelf.specificBook.pages[0].page)
-    $('#page2').text(shelf.specificBook.pages[1].page)
+    $('#page1').text(shelf.specificBook.currentPage1)
+    $('#page2').text(shelf.specificBook.currentPage2)
   })
 
   $("#forward").on('click', function() {
-    $('#page1').text(shelf.specificBook.pages[0].page)
-    $('#page2').text(shelf.specificBook.pages[1].page)
+    shelf.specificBook.nextPage()
+    $('#page1').text(shelf.specificBook.currentPage1)
+    $('#page2').text(shelf.specificBook.currentPage2)
+  })
+
+  $("#back").on('click', function() {
+    shelf.specificBook.previousPage()
+    $('#page1').text(shelf.specificBook.currentPage1)
+    $('#page2').text(shelf.specificBook.currentPage2)
   })
 })
