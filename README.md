@@ -62,6 +62,8 @@ There's something quite thematically appropriate about inferring the library via
 
 ![update1](https://github.com/wemmm/labyrinths/blob/master/public/images/septemberupdate.png)
 
+14/9: Books can be navigated via 'back' and 'forward' buttons (finally).
+
 # Tech I'm Using:
 
 * Node.js & Express
