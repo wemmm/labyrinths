@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Cabin+Sketch|Fredericka+the+Great|Josefin+Slab|Open+Sans');
 
 html {
-  background: linear-gradient(darkslategray, #1c3438);
+  background: linear-gradient(to left, darkslategray, #1c3438);
   height: 100vh;
 }
 
@@ -23,23 +23,38 @@ h2 {
 }
 
 p {
-  font-size: 12px;
-  color: floralwhite;
+  font-size: 8px;
+  color: black;
   font-family: 'Open Sans';
 }
 
 .page1container {
-  width: 45vw;
+  width: 36%;
   margin-left: 20px;
-  float: left;
+  z-index: 1000;
+  height: 20%;
+  position: relative;
+  top: 80px;
+  left: 85px;
 }
 
 .page2container {
-  width: 45vw;
+  width: 36%;
   margin-right: 20px;
+  z-index: 1001;
+  position: relative;
   float: right;
+  top: -420px;
+  right: 75px;
 }
 
 .pagebuttons {
   display: inline-block;
+}
+
+.book {
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  position: absolute;
 }

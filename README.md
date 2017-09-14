@@ -62,7 +62,9 @@ There's something quite thematically appropriate about inferring the library via
 
 ![update1](https://github.com/wemmm/labyrinths/blob/master/public/images/septemberupdate.png)
 
-14/9: Books can be navigated via 'back' and 'forward' buttons (finally).
+14/9: Books can be navigated via 'back' and 'forward' buttons (finally). Also some rudimentary attempts to make the whole thing actually look like a book.
+
+![lookslikeabook](https://github.com/wemmm/labyrinths/blob/master/public/images/styled.png)
 
 # Tech I'm Using:
 

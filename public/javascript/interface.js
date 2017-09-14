@@ -1,5 +1,6 @@
 $(document).ready(function() {
   var shelf = new Shelf;
+  $("#booktitle").text("Title")
 
   $("#submitbook").on('click', function() {
     shelf.getSpecificBook($("#bookinput").val())
